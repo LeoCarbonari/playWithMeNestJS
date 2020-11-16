@@ -6,7 +6,7 @@ export class GetTaskFilterDto {
     @IsIn([
         TaskStatus.OPEN, 
         TaskStatus.IN_PROGRESS, 
-        TaskStatus.IN_PROGRESS
+        TaskStatus.DONE
     ])
     status: TaskStatus;
 
